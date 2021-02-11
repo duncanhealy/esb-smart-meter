@@ -1,8 +1,10 @@
 # ESB smart meter
 
-Omnipower
+## Objective 
 
-RM106 Kamstrup
+Gathering information on how to read the smart meter model
+
+- Omnipower (RM106 Kamstrup)
 
 ## How to read the meter
 
