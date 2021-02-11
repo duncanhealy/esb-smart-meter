@@ -46,3 +46,11 @@ Press the left pushbutton again to select the R- display. This is the total reac
 - [kamstrup and siemens](https://new.siemens.com/ie/en/company/news/kamstrup-and-siemens-to-roll-out-large-scale-smart-metering-project-in-ireland.html)
 
 - [dpia](https://www.esbnetworks.ie/docs/default-source/default-document-library/smart-metering-register-data-dpia.pdf?sfvrsn=abee01f0_0)
+
+
+## smart meter app ?
+
+- [smart me app](https://web.smart-me.com/en/project/smart-me-app-2/)
+- [smart me](https://web.smart-me.com/en/project/kamstrup-module/)
+- [smart me auto export](https://doc.smart-me.com/configuration/auto-export)
+- [module](https://doc.smart-me.com/products/kamstrup-module)
