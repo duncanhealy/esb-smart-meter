@@ -57,7 +57,23 @@ Press the left pushbutton again to select the R- display. This is the total reac
 - [smart me auto export](https://doc.smart-me.com/configuration/auto-export)
 - [module](https://doc.smart-me.com/products/kamstrup-module)
 
-# License
+## data from esb acquired!! :smiley:
+
+## response 
+![response page 1](2021-03-24-17-50-22.png)
+![response page 2](2021-03-24-17-51-14.png)
+![response page 3](2021-03-24-17-52-02.png)
+
+## steps to extract the data
+
+export the data from excel file to `data.csv`
+
+- `make install` to install requirements
+
+- `make split` to split the data from ESB networks
+
+
+## License
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
