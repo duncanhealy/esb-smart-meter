@@ -59,7 +59,8 @@ Press the left pushbutton again to select the R- display. This is the total reac
 
 ## data from esb acquired!! :smiley:
 
-## response 
+## response from esb
+
 ![response page 1](2021-03-24-17-50-22.png)
 ![response page 2](2021-03-24-17-51-14.png)
 ![response page 3](2021-03-24-17-52-02.png)
@@ -71,9 +72,13 @@ export the data from excel file to `data.csv`
 - `make install` to install requirements
 
 - `make split` to split the data from ESB networks
+- `make insert-data` to insert the data to sqlite db
+- `make serve` to test the data locally
+- `make publish` to publish the data to vercel
 
 ## examine the data
-
+- site deployed to https://esb-smart-meter.vercel.app/
+- graphql endpoint at https://esb-smart-meter.vercel.app/graphql
 ```gql
 {
   runningtotal_export(sort_desc:Flags){
