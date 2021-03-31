@@ -72,6 +72,30 @@ export the data from excel file to `data.csv`
 
 - `make split` to split the data from ESB networks
 
+## examine the data
+
+```gql
+{
+  runningtotal_export(sort_desc:Flags){
+    nodes {
+      Channel_Name
+      Read_End_Time
+      Read_Value
+      Validation_Status
+      Flags
+      Fail_Code
+      Type
+      Status
+      rowid
+    }
+    totalCount
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}
+```
 
 ## License
 
