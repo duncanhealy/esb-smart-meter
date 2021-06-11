@@ -24,3 +24,6 @@ serve:
 publish:
 	vercel login
 	datasette publish vercel esb.db --branch main --install datasette-graphql --install datasette-vega --project "esb-smart-meter"
+update-packages:
+	pip install --ignore-installed -r requirements.txt
+	pip freeze | sed 's/==/~=/' > requirements.txt
