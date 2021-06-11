@@ -6,7 +6,7 @@ backcall==0.2.0
 certifi==2020.12.5
 click==7.1.2
 click-default-group==1.2.2
-datasette==0.56
+datasette==0.56.1
 datasette-graphql==1.4
 datasette-publish-vercel==0.9.3
 datasette-vega==0.6.2
